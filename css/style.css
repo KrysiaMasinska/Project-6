@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 62.5%;
+    font-family: 'Hind Guntur', sans-serif;
+    background: #222;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    color: rgb(38, 175, 38)
+}
+
+
+.todoInput {
+    padding: .2em .4em;
+    width: 450px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.addBtn {
+    margin: .5rem;
+    padding: .5rem;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(38, 175, 38);
+    color: #fff;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    opacity: .7;
+}
+
+.todoList {
+    margin-top: 1rem;
+}
+
+.todoList h3 {
+    color: #ddd;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.alertInfo {
+    margin-top: .25rem;
+    font-size: 1.4rem;
+    color:#ddd;
+    color: rgb(38, 175, 38);
+}
+
+.item {
+    padding: .25rem .5rem;
+    margin-bottom: 1rem;
+    /* background: rgb(70, 68, 68); */
+    border-bottom: 4px solid #fff;
+}
+
+.item_input {
+    width: 300px;
+    outline: none;
+    border:none;
+    font-size: 1.6rem;
+    color:#ddd;
+    background: none;
+}
+
+.item button {
+    padding: .25rem .5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.item button:hover {
+    color: #ddd;
+}
+
+.complete {
+    color: var(--light-blue);
+}
+
+.edit {
+    font-weight: bold;
+    color: rgb(15, 179, 69);
+}
+
+.delete {
+    color: tomato;
+}
