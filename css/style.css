@@ -125,3 +125,10 @@ h1 {
 .delete {
     color: var(--light-red);
 }
+
+.completed {
+    font-size: 1.6rem;
+    color: var(--light-dark);
+    text-decoration: line-through;
+    font-style: italic;
+}
